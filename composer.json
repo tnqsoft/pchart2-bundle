@@ -1,0 +1,38 @@
+{
+    "name": "tnqsoft/pchart2-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "PChart2 Bundle for Symfony 3",
+    "keywords": [
+		"chart", 
+		"pchart 2", 
+		"symfony 3"
+	],
+	"homepage": "http://www.pchart.net/",
+	"support": {
+		"source": "https://github.com/tnqsoft/pchart2-bundle",
+		"issues": "https://github.com/tnqsoft/pchart2-bundle/issues"
+	},
+    "authors": [
+        {
+            "name": "Nguyen Nhu Tuan",
+            "homepage": "https://github.com/tnqsoft/pchart2-bundle",
+            "email": "tuanquynh0508@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "3.3.*"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+	"autoload": {
+        "psr-4": {
+            "Pchart2Bundle\\": "src/"
+        }
+    }
+}
